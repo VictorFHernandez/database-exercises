@@ -12,7 +12,14 @@ CREATE TABLE albums (
     PRIMARY KEY (id)
 );
 
-/* completed step 5: Open a terminal,
-   and run the script as codeup_test_user with the following command:
+/* completed step 5:
+   Open a terminal, and run the script as codeup_test_user with the following command:
    mysql -u codeup_test_user -p < albums_migration.sql;
+ */
+/* completed step 6:
+   After running the script, connect to the MySQL server as you have done previously
+ */
+/* completed step 7:
+   USE the codeup_test_db and use DESCRIBE and SHOW CREATE to verify that your albums table has been successfully created.
+   EVERYTHING IS WORKING PROPERLY :)
  */
