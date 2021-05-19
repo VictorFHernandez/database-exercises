@@ -22,3 +22,5 @@ WHERE sales < 20;
 
 
 SELECT 'All the albums with a genre of "Rock"' AS 'Info';
+SELECT name_of_record FROM albums
+WHERE genre = 'Rock';
