@@ -12,6 +12,12 @@ WHERE last_name LIKE 'E%'
   AND last_name LIKE '%E'
 GROUP BY first_name, last_name ORDER BY first_name, last_name ASC;
 
-SELECT DISTINCT last_name FROM employees
+SELECT COUNT(last_name), last_name FROM employees
 WHERE last_name Like '%q%'
-AND last_name NOT LIKE '%qu%';
+AND last_name NOT LIKE '%qu%'
+GROUP BY last_name ORDER BY last_name;
+
+
+SELECT COUNT(gender), gender FROM employees
+WHERE first_name IN ('Irena', 'Vidya', 'Maya')
+GROUP BY gender;
